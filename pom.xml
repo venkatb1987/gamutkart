@@ -22,9 +22,24 @@
 		</dependency>
 			
 	</dependencies>
+	
+	<distributionManagement>
+	<repository>
+		<id>deployment</id>
+		<name>Internal Releases</name>
+		<url>http://172.17.0.3:8081/repository/gamutkart-REL/</url>
+	</repository>
+	
+	<snapshotRepository>
+		<id>deployment</id>
+		<name>Internal Snapshot Releases</name>
+		<url>http://172.17.0.3:8081/repository/gamutkart-SNAP/</url>
+	</snapshotRepository>
+	
+	</distributionManagement>
 
 	<build>
-		<finalName>gamutkart</finalName>
+		<finalName>gamutkart_test</finalName>
 	</build>
 	
 </project>
