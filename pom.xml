@@ -27,13 +27,13 @@
 	<repository>
 		<id>deployment</id>
 		<name>Internal Releases</name>
-		<url>http://192.168.40.128:8081/repository/gamutkart-REL/</url>
+		<url>http://172.17.0.3:8081/repository/gamutkart-REL/</url>
 	</repository>
 	
 	<snapshotRepository>
 		<id>deployment</id>
 		<name>Internal Snapshot Releases</name>
-		<url>http://192.168.40.128:8081/repository/gamutkart-SNAP/</url>
+		<url>http://172.17.0.3:8081/repository/gamutkart-SNAP/</url>
 	</snapshotRepository>
 	
 	</distributionManagement>
